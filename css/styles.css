@@ -1,0 +1,157 @@
+*{
+	-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+
+html, body{
+	min-height: 100%;
+	min-width: 100%;
+	background: url(../img/two_lines.png) 380px 25px no-repeat;
+	background-color: #e8e8e8;
+}
+
+.content {
+	max-width: 841px;
+	min-height: 1471px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.content-header {
+	height: 210px;
+	text-align: center;
+}
+
+.content-header__title {
+	color: #273d46;
+	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 35px 0 0 0;
+}
+
+.cpntent-header__subtitle {
+	color: #273d46;
+	font-size: 36px;
+	line-height: 50px;
+	width: 725px;
+	margin: 0 auto;
+}
+
+
+
+
+.content-image {
+	height: 561px;
+	background-color: white;
+	padding: 10px;
+}
+
+.content-image__img {
+	min-height: 100%;
+	background: url('../img/running_man.png');
+}
+
+
+
+.content-footer {
+	height: 678px;
+	padding: 85px 45px 0;
+}
+
+.content-footer__text {
+/* Style for "Donec ared" */
+	opacity: 0.8;
+	color: #273d46;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: left;
+}
+
+.content-footer__text p{
+	margin-bottom: 40px;
+}
+
+.content-footer__text p:last-child{
+	margin-bottom: 50px;
+}
+
+.content-footer__list {
+
+}
+
+.list {
+	margin-bottom: 60px;
+}
+
+.list li{
+	background: url(../img/check_icon.png) left 50%/auto no-repeat;
+	padding-left: 35px;
+	margin-bottom: 10px;
+}
+
+.list li:last-child{
+	margin: 0;
+}
+
+.list__part-1 {
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	color: #273d46;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.list__part-2 {
+	color: #80b7b3;
+	font-size: 20px;
+	font-style: italic;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.list__part-3 {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.list__part-4 {
+	opacity: 0.3;
+	color: #273d46;
+	font-size: 20px;
+	text-decoration: line-through;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content-footer__button {
+	height: 77px;
+}
+
+.button {
+	display: inline-block;
+	/* Style for "Full Story" */
+	color: #ffffff;
+	font-size: 14px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-color: #80b7b3;
+	border-radius: 30px;
+	padding: 0 30px;
+	height: 46px;
+	line-height: 46px;
+	margin-bottom: 34px;
+}
+
+.button span{
+	background: url(../img/pointer.png) right  no-repeat;
+	padding-right: 30px;
+}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:focus,a:active{outline: none;}
